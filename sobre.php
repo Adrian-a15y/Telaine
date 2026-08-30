@@ -12,7 +12,7 @@
     <nav class="navbar">
         <!-- Espaço para o Logo (Texto ou Imagem) -->
         <div class="logo_menu"> <!-- Ajustado de 'logo' para 'menu-logo' -->
-            <a href="#">MeuLogo</a>
+             <img src="imagens/logo_telaine.png" alt="Logo da Empresa" class="logo">
         </div>
 
         <!-- Os 4 Links do Menu -->
