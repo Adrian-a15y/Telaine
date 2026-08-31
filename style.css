@@ -505,26 +505,21 @@ a {
 }
 
 
-/* ==================== PRODUTOS ==================== */
+/* ==================== PRODUTOS DO CATÁLOGO ==================== */
 
 .catalogo {
     padding: 80px 8%;
-
     background-color: #FFFFFF;
 }
 
-.produtos {
+/* Especifica que este grid se aplica apenas DENTRO do catálogo */
+.catalogo .produtos {
     display: grid;
-
     grid-template-columns: repeat(4, 1fr);
-
     gap: 25px;
-
     max-width: 1200px;
-
     margin: auto;
 }
-
 
 /* ==================== CARD DO PRODUTO ==================== */
 
