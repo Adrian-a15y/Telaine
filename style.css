@@ -12,6 +12,10 @@ body {
     color: #202020;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /* ==================== MENU ==================== */
 
@@ -157,12 +161,315 @@ body {
 }
 
 
+/* ==================== APRESENTAÇÃO ==================== */
+
+.apresentacao {
+    background-color: #FFFFFF;
+
+    padding: 70px 10%;
+
+    text-align: center;
+}
+
+.apresentacao-conteudo {
+    max-width: 850px;
+
+    margin: auto;
+}
+
+.apresentacao h1 {
+    color: #202020;
+
+    font-size: 2.5rem;
+
+    margin-bottom: 25px;
+}
+
+.apresentacao p {
+    color: #555555;
+
+    font-size: 1.05rem;
+
+    line-height: 1.7;
+
+    margin-bottom: 15px;
+}
+
+
+/* ==================== BOTÕES ==================== */
+
+.botao {
+    display: inline-block;
+
+    background-color: #202020;
+
+    color: #FFFFFF;
+
+    padding: 12px 25px;
+
+    border-radius: 5px;
+
+    margin-top: 15px;
+
+    font-weight: 600;
+
+    transition: 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #9C777A;
+
+    transform: translateY(-2px);
+}
+
+
+/* ==================== MISSÃO, META E VALORES ==================== */
+
+.objetivos {
+    padding: 70px 8%;
+
+    background-color: #F5F2F2;
+}
+
+.cards-objetivos {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+
+    max-width: 1200px;
+
+    margin: auto;
+}
+
+.card-objetivo {
+    background-color: #FFFFFF;
+
+    padding: 35px 30px;
+
+    border-radius: 8px;
+
+    text-align: center;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s ease;
+}
+
+.card-objetivo:hover {
+    transform: translateY(-5px);
+}
+
+.icone {
+    font-size: 2.5rem;
+
+    margin-bottom: 15px;
+}
+
+.card-objetivo h3 {
+    color: #202020;
+
+    font-size: 1.4rem;
+
+    margin-bottom: 15px;
+}
+
+.card-objetivo p {
+    color: #666666;
+
+    line-height: 1.6;
+}
+
+.lista-valores {
+    list-style: none;
+
+    color: #666666;
+
+    line-height: 2;
+}
+
+.lista-valores li {
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.lista-valores li:last-child {
+    border-bottom: none;
+}
+
+
+/* ==================== PRODUTOS ==================== */
+
+.produtos {
+    padding: 70px 8%;
+
+    background-color: #FFFFFF;
+}
+
+.cards-produtos {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 25px;
+
+    max-width: 1200px;
+
+    margin: auto;
+}
+
+.card-produto {
+    background-color: #F5F2F2;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s ease;
+}
+
+.card-produto:hover {
+    transform: translateY(-5px);
+}
+
+.imagem-produto {
+    height: 220px;
+
+    background-color: #D8D8D8;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: #777777;
+
+    font-size: 0.9rem;
+}
+
+.conteudo-produto {
+    padding: 22px;
+}
+
+.conteudo-produto h3 {
+    color: #202020;
+
+    font-size: 1.3rem;
+
+    margin-bottom: 10px;
+}
+
+.conteudo-produto p {
+    color: #666666;
+
+    line-height: 1.5;
+
+    font-size: 0.95rem;
+}
+
+.botao-catalogo {
+    display: block;
+
+    width: fit-content;
+
+    margin: 40px auto 0;
+}
+
+
+/* ==================== SUSTENTABILIDADE ==================== */
+
+.sustentabilidade {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+
+    gap: 50px;
+
+    padding: 70px 10%;
+
+    background-color: #F5F2F2;
+}
+
+.espaco-imagem {
+    height: 380px;
+
+    background-color: #D8D8D8;
+
+    border-radius: 8px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: #777777;
+}
+
+.sustentabilidade-conteudo h2 {
+    color: #202020;
+
+    font-size: 2.2rem;
+
+    margin-bottom: 20px;
+}
+
+.sustentabilidade-conteudo p {
+    color: #666666;
+
+    line-height: 1.7;
+
+    margin-bottom: 15px;
+}
+
+
+/* ==================== CHAMADA PARA CONTATO ==================== */
+
+.chamada-contato {
+    background-color: #202020;
+
+    color: #FFFFFF;
+
+    padding: 70px 10%;
+
+    text-align: center;
+}
+
+.chamada-contato .subtitulo {
+    color: #D8BEBF;
+}
+
+.chamada-contato h2 {
+    font-size: 2.2rem;
+
+    margin-bottom: 15px;
+}
+
+.chamada-contato p {
+    color: #D8D8D8;
+
+    margin-bottom: 15px;
+}
+
+.botao-claro {
+    background-color: #EFDCDE;
+
+    color: #202020;
+}
+
+.botao-claro:hover {
+    background-color: #D8BEBF;
+}
+
+
 /* ================================================= */
 /* ==================== CATÁLOGO =================== */
 /* ================================================= */
-
-
-/* ==================== INTRODUÇÃO ==================== */
 
 .catalogo-introducao {
     background-color: #F5F2F2;
@@ -194,9 +501,6 @@ body {
     line-height: 1.7;
 }
 
-
-/* ==================== PRODUTOS ==================== */
-
 .catalogo {
     padding: 80px 8%;
 
@@ -215,9 +519,6 @@ body {
     margin: auto;
 }
 
-
-/* ==================== CARD DO PRODUTO ==================== */
-
 .produto {
     background-color: #F5F2F2;
 
@@ -233,9 +534,6 @@ body {
 .produto:hover {
     transform: translateY(-5px);
 }
-
-
-/* ==================== IMAGEM DO PRODUTO ==================== */
 
 .produto-imagem {
     width: 100%;
@@ -262,9 +560,6 @@ body {
 
     object-fit: cover;
 }
-
-
-/* ==================== INFORMAÇÕES DO PRODUTO ==================== */
 
 .produto-conteudo {
     padding: 25px;
@@ -296,9 +591,6 @@ body {
     font-weight: 700;
 }
 
-
-/* ==================== FINAL DO CATÁLOGO ==================== */
-
 .catalogo-final {
     background-color: #202020;
 
@@ -320,8 +612,6 @@ body {
 
     font-size: 1.1rem;
 }
-
-
 /* ================================================= */
 /* ==================== SOBRE ====================== */
 /* ================================================= */
@@ -397,7 +687,7 @@ body {
 }
 
 
-/* Espaço reservado para imagem */
+/* ==================== ESPAÇO PARA IMAGEM ==================== */
 
 .espaco-imagem {
     height: 380px;
@@ -810,7 +1100,7 @@ body {
     margin-bottom: 20px;
 }
 
-.contato-informacoes>p {
+.contato-informacoes > p {
     color: #666666;
 
     line-height: 1.7;
@@ -1041,6 +1331,52 @@ body {
     color: #E6E6E6;
 }
 
+.footer-conteudo {
+    display: grid;
+
+    grid-template-columns: 2fr 1fr 2fr;
+
+    gap: 50px;
+
+    padding: 50px 8%;
+}
+
+.footer-logo img {
+    width: 150px;
+
+    margin-bottom: 10px;
+}
+
+.footer p {
+    color: #AAAAAA;
+
+    line-height: 1.6;
+}
+
+.footer h3 {
+    color: #FFFFFF;
+
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+}
+
+.footer-links a {
+    color: #AAAAAA;
+
+    transition: 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #D8BEBF;
+}
+
 .footer-final {
     border-top: 1px solid #333333;
 
@@ -1050,8 +1386,6 @@ body {
 }
 
 .footer-final p {
-    color: #AAAAAA;
-
     font-size: 0.85rem;
 }
 
@@ -1067,8 +1401,6 @@ body {
 
     .produtos {
         grid-template-columns: repeat(2, 1fr);
-
-        max-width: 800px;
     }
 
 }
@@ -1108,6 +1440,16 @@ body {
         max-width: 700px;
     }
 
+    .sustentabilidade {
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+    }
+
+    .footer-conteudo {
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
 
 
@@ -1135,7 +1477,7 @@ body {
     /* Index */
 
     .carrossel-container {
-        margin: 1.5rem auto;
+        margin: 1rem auto;
     }
 
     .slide {
@@ -1144,6 +1486,20 @@ body {
 
     .slide img {
         height: 300px;
+    }
+
+    .apresentacao {
+        padding: 60px 7%;
+    }
+
+    .apresentacao h1 {
+        font-size: 2rem;
+    }
+
+    .objetivos,
+    .produtos,
+    .sustentabilidade {
+        padding: 60px 7%;
     }
 
 
@@ -1259,6 +1615,19 @@ body {
         font-size: 1.7rem;
     }
 
+
+    /* Rodapé */
+
+    .footer-conteudo {
+        grid-template-columns: 1fr;
+
+        text-align: center;
+    }
+
+    .footer-links {
+        align-items: center;
+    }
+
 }
 
 
@@ -1326,4 +1695,4 @@ body {
         padding: 20px;
     }
 
-}
+        }
