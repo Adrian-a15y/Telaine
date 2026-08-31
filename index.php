@@ -8,6 +8,7 @@
     <title>Telaine | Reaproveitar, Criar e Transformar</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="imagens/logo_telaine.png">
 </head>
 
 <body>
