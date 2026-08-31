@@ -1345,27 +1345,59 @@ a {
     padding: 50px 8% 20px;
 }
 
-/* Container principal para alinhar a logo e as seções lado a lado */
+/* Container principal do rodapé */
 .footer-conteudo {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start; /* Alinha tudo pelo topo */
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 40px;
     max-width: 1200px;
     margin: 0 auto 40px;
 }
 
-/* --- CORREÇÃO DA LOGO --- */
+/* --- LOGO DO RODAPÉ --- */
 .footer-logo {
     display: flex;
     align-items: center;
 }
 
 .footer-logo img {
-    height: 60px;          /* Define altura fixa para a logo não estourar */
-    width: auto;           /* Mantém a proporção correta */
+    height: 60px;          /* Mantém a logo no tamanho correto */
+    width: auto;
     object-fit: contain;
+}
+
+/* --- COLUNAS DE LINKS / TEXTOS (SE HOUVER) --- */
+.footer-secao, 
+.footer-coluna {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-secao h4,
+.footer-coluna h4 {
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.footer-secao ul {
+    list-style: none;
+}
+
+.footer-secao ul li {
+    margin-bottom: 8px;
+}
+
+.footer-secao ul li a {
+    color: #AAAAAA;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-secao ul li a:hover {
+    color: #D8BEBF;
 }
 
 /* --- LINHA DE DIREITOS AUTORAIS / FINAL --- */
@@ -1379,7 +1411,6 @@ a {
     color: #AAAAAA;
     font-size: 0.85rem;
 }
-
 
 /* ================================================= */
 /* ================= RESPONSIVIDADE ================ */
