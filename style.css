@@ -12,14 +12,8 @@ body {
     color: #202020;
 }
 
-a {
-    text-decoration: none;
-}
-
 
 /* ==================== MENU ==================== */
-
-/* Estilização da barra de navegação */
 
 .navbar {
     display: flex;
@@ -30,17 +24,11 @@ a {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
 }
 
-
-/* Espaço do Logo */
-
 .logo_menu {
-    height: 50px;
+    height: 70px;
     display: flex;
     align-items: center;
 }
-
-
-/* Garante que a imagem do logo se ajuste à altura do container */
 
 .logo_menu img {
     height: 100%;
@@ -48,17 +36,11 @@ a {
     object-fit: contain;
 }
 
-
-/* Lista de links do menu */
-
 .links_menu {
     display: flex;
     list-style: none;
     gap: 2rem;
 }
-
-
-/* Estilo dos links individuais */
 
 .links_menu a {
     color: #E6E6E6;
@@ -68,15 +50,9 @@ a {
     transition: color 0.3s ease;
 }
 
-
-/* Efeito de passar o mouse nos links */
-
 .links_menu a:hover {
     color: #D8BEBF;
 }
-
-
-/* Cor do link da página atual selecionada */
 
 .links_menu a.ativado {
     color: #EFDCDE;
@@ -86,56 +62,7 @@ a {
 }
 
 
-/* ==================== CARROSSEL ==================== */
-
-/* Container do carrossel */
-
-.carrossel-container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 2rem auto;
-    position: relative;
-    overflow: hidden;
-}
-
-
-/* Alinha as imagens em linha */
-
-.carrossel-slides {
-    display: flex;
-}
-
-
-/* Define que cada slide ocupa 100% da largura */
-
-.slide {
-    flex: 0 0 100%;
-    padding: 0 10px;
-}
-
-
-/* Configuração das imagens */
-
-.slide img {
-    width: 100%;
-    height: 450px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-
-/* ==================== APRESENTAÇÃO ==================== */
-
-.apresentacao {
-    background-color: #FFFFFF;
-    padding: 70px 10%;
-    text-align: center;
-}
-
-.apresentacao-conteudo {
-    max-width: 850px;
-    margin: auto;
-}
+/* ==================== ELEMENTOS GERAIS ==================== */
 
 .subtitulo {
     display: block;
@@ -146,43 +73,8 @@ a {
     margin-bottom: 12px;
 }
 
-.apresentacao h1 {
-    color: #202020;
-    font-size: 2.5rem;
-    margin-bottom: 25px;
-}
-
-.apresentacao p {
-    color: #555555;
-    font-size: 1.05rem;
-    line-height: 1.7;
-    margin-bottom: 15px;
-}
-
-
-/* ==================== BOTÕES ==================== */
-
-.botao {
-    display: inline-block;
-    background-color: #202020;
-    color: #FFFFFF;
-    padding: 12px 25px;
-    border-radius: 5px;
-    margin-top: 15px;
-    font-weight: 600;
-    transition: 0.3s ease;
-}
-
-.botao:hover {
-    background-color: #9C777A;
-    transform: translateY(-2px);
-}
-
-
-/* ==================== TÍTULOS ==================== */
-
 .titulo-secao {
-    max-width: 800px;
+    max-width: 850px;
     margin: 0 auto 45px;
     text-align: center;
 }
@@ -195,141 +87,62 @@ a {
 
 .titulo-secao p {
     color: #666666;
-    line-height: 1.6;
+    line-height: 1.7;
+    margin-bottom: 12px;
 }
 
 
-/* ==================== MISSÃO, META E VALORES ==================== */
+/* ==================== CABEÇALHO SOBRE ==================== */
 
-.objetivos {
-    padding: 70px 8%;
+.sobre-introducao {
     background-color: #F5F2F2;
-}
-
-.cards-objetivos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-    max-width: 1200px;
-    margin: auto;
-}
-
-.card-objetivo {
-    background-color: #FFFFFF;
-    padding: 35px 30px;
-    border-radius: 8px;
+    padding: 80px 10%;
     text-align: center;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
-    transition: 0.3s ease;
 }
 
-.card-objetivo:hover {
-    transform: translateY(-5px);
-}
-
-.icone {
-    font-size: 2.5rem;
-    margin-bottom: 15px;
-}
-
-.card-objetivo h3 {
-    color: #202020;
-    font-size: 1.4rem;
-    margin-bottom: 15px;
-}
-
-.card-objetivo p {
-    color: #666666;
-    line-height: 1.6;
-}
-
-.lista-valores {
-    list-style: none;
-    color: #666666;
-    line-height: 2;
-}
-
-.lista-valores li {
-    border-bottom: 1px solid #EEEEEE;
-}
-
-.lista-valores li:last-child {
-    border-bottom: none;
-}
-
-
-/* ==================== PRODUTOS ==================== */
-
-.produtos {
-    padding: 70px 8%;
-    background-color: #FFFFFF;
-}
-
-.cards-produtos {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
-    max-width: 1200px;
+.sobre-introducao-conteudo {
+    max-width: 850px;
     margin: auto;
 }
 
-.card-produto {
-    background-color: #F5F2F2;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
-    transition: 0.3s ease;
-}
-
-.card-produto:hover {
-    transform: translateY(-5px);
-}
-
-
-/* Espaço reservado para as imagens dos produtos */
-
-.imagem-produto {
-    height: 220px;
-    background-color: #D8D8D8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #777777;
-    font-size: 0.9rem;
-}
-
-.conteudo-produto {
-    padding: 22px;
-}
-
-.conteudo-produto h3 {
+.sobre-introducao h1 {
     color: #202020;
-    font-size: 1.3rem;
-    margin-bottom: 10px;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
 }
 
-.conteudo-produto p {
+.sobre-introducao p {
     color: #666666;
-    line-height: 1.5;
-    font-size: 0.95rem;
-}
-
-.botao-catalogo {
-    display: block;
-    width: fit-content;
-    margin: 40px auto 0;
+    font-size: 1.1rem;
+    line-height: 1.7;
 }
 
 
-/* ==================== SUSTENTABILIDADE ==================== */
+/* ==================== QUEM SOMOS ==================== */
 
-.sustentabilidade {
+.quem-somos {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 50px;
-    padding: 70px 10%;
-    background-color: #F5F2F2;
+    gap: 60px;
+    padding: 80px 10%;
+    background-color: #FFFFFF;
+}
+
+.quem-somos-conteudo h2 {
+    color: #202020;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.quem-somos-conteudo p {
+    color: #666666;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.quem-somos-imagem {
+    width: 100%;
 }
 
 
@@ -345,49 +158,239 @@ a {
     color: #777777;
 }
 
-.sustentabilidade-conteudo h2 {
-    color: #202020;
-    font-size: 2.2rem;
-    margin-bottom: 20px;
+
+/* ==================== NOSSO PROPÓSITO ==================== */
+
+.nosso-proposito {
+    padding: 80px 8%;
+    background-color: #F5F2F2;
 }
 
-.sustentabilidade-conteudo p {
-    color: #666666;
-    line-height: 1.7;
+.proposito-conteudo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.proposito-item {
+    background-color: #FFFFFF;
+    padding: 35px 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+}
+
+.proposito-item:hover {
+    transform: translateY(-5px);
+}
+
+.proposito-item .icone {
+    font-size: 2.5rem;
     margin-bottom: 15px;
 }
 
+.proposito-item h3 {
+    color: #202020;
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+}
 
-/* ==================== CHAMADA PARA CONTATO ==================== */
+.proposito-item p {
+    color: #666666;
+    line-height: 1.6;
+}
 
-.chamada-contato {
+
+/* ==================== COMO FUNCIONA ==================== */
+
+.como-funciona {
+    padding: 80px 8%;
+    background-color: #FFFFFF;
+}
+
+.etapas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.etapa {
+    text-align: center;
+    padding: 25px 20px;
+}
+
+.numero-etapa {
+    display: flex;
+    width: 55px;
+    height: 55px;
+    margin: 0 auto 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
     background-color: #202020;
-    color: #FFFFFF;
-    padding: 70px 10%;
+    color: #EFDCDE;
+    font-weight: 700;
+}
+
+.etapa h3 {
+    color: #202020;
+    margin-bottom: 12px;
+    font-size: 1.25rem;
+}
+
+.etapa p {
+    color: #666666;
+    line-height: 1.6;
+}
+
+
+/* ==================== MISSÃO, META E VALORES ==================== */
+
+.sobre-objetivos {
+    padding: 80px 8%;
+    background-color: #F5F2F2;
+}
+
+.sobre-cards-objetivos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.sobre-card-objetivo {
+    background-color: #FFFFFF;
+    padding: 35px 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.sobre-card-objetivo .icone {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.sobre-card-objetivo h3 {
+    color: #202020;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.sobre-card-objetivo p {
+    color: #666666;
+    line-height: 1.7;
+}
+
+.lista-valores {
+    list-style: none;
+    color: #666666;
+    line-height: 1.7;
+    text-align: left;
+}
+
+.lista-valores li {
+    padding: 8px 0;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.lista-valores li:last-child {
+    border-bottom: none;
+}
+
+.lista-valores strong {
+    color: #202020;
+}
+
+
+/* ==================== INTEGRANTES ==================== */
+
+.integrantes {
+    padding: 80px 8%;
+    background-color: #FFFFFF;
+}
+
+.foto-integrantes {
+    width: 100%;
+    max-width: 1000px;
+    height: 450px;
+    margin: 0 auto 45px;
+    background-color: #D8D8D8;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777777;
+}
+
+
+/* Lista dos integrantes */
+
+.lista-integrantes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.integrante {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 18px 20px;
+    background-color: #F5F2F2;
+    border-radius: 6px;
+}
+
+.integrante span {
+    color: #9C777A;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.integrante p {
+    color: #202020;
+    font-weight: 500;
+}
+
+.informacoes-projeto {
+    max-width: 900px;
+    margin: 35px auto 0;
+    padding-top: 25px;
+    border-top: 1px solid #DDDDDD;
     text-align: center;
 }
 
-.chamada-contato .subtitulo {
-    color: #D8BEBF;
+.informacoes-projeto p {
+    color: #666666;
+    margin-bottom: 8px;
 }
 
-.chamada-contato h2 {
+
+/* ==================== FRASE FINAL ==================== */
+
+.frase-final {
+    background-color: #202020;
+    color: #FFFFFF;
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.frase-final h2 {
     font-size: 2.2rem;
     margin-bottom: 15px;
 }
 
-.chamada-contato p {
+.frase-final p {
     color: #D8D8D8;
-    margin-bottom: 15px;
-}
-
-.botao-claro {
-    background-color: #EFDCDE;
-    color: #202020;
-}
-
-.botao-claro:hover {
-    background-color: #D8BEBF;
+    font-size: 1.1rem;
 }
 
 
@@ -398,43 +401,6 @@ a {
     color: #E6E6E6;
 }
 
-.footer-conteudo {
-    display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
-    gap: 50px;
-    padding: 50px 8%;
-}
-
-.footer-logo img {
-    width: 150px;
-    margin-bottom: 10px;
-}
-
-.footer p {
-    color: #AAAAAA;
-    line-height: 1.6;
-}
-
-.footer h3 {
-    color: #FFFFFF;
-    margin-bottom: 15px;
-}
-
-.footer-links {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.footer-links a {
-    color: #AAAAAA;
-    transition: 0.3s ease;
-}
-
-.footer-links a:hover {
-    color: #D8BEBF;
-}
-
 .footer-final {
     border-top: 1px solid #333333;
     padding: 20px;
@@ -442,6 +408,7 @@ a {
 }
 
 .footer-final p {
+    color: #AAAAAA;
     font-size: 0.85rem;
 }
 
@@ -450,22 +417,23 @@ a {
 
 @media (max-width: 900px) {
 
-    .cards-produtos {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .cards-objetivos {
-        grid-template-columns: 1fr;
-        max-width: 600px;
-    }
-
-    .sustentabilidade {
+    .quem-somos {
         grid-template-columns: 1fr;
         gap: 35px;
     }
 
-    .footer-conteudo {
-        grid-template-columns: 1fr 1fr;
+    .proposito-conteudo {
+        grid-template-columns: 1fr;
+        max-width: 600px;
+    }
+
+    .etapas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sobre-cards-objetivos {
+        grid-template-columns: 1fr;
+        max-width: 600px;
     }
 }
 
@@ -486,56 +454,49 @@ a {
         justify-content: center;
     }
 
-    .carrossel-container {
-        margin: 1rem auto;
-    }
-
-    .slide img {
-        height: 300px;
-    }
-
-    .apresentacao {
+    .sobre-introducao {
         padding: 60px 7%;
     }
 
-    .apresentacao h1 {
-        font-size: 2rem;
+    .sobre-introducao h1 {
+        font-size: 2.2rem;
     }
 
-    .objetivos,
-    .produtos,
-    .sustentabilidade {
+    .quem-somos,
+    .nosso-proposito,
+    .como-funciona,
+    .sobre-objetivos,
+    .integrantes {
         padding: 60px 7%;
     }
 
-    .cards-produtos {
-        grid-template-columns: 1fr;
-        max-width: 450px;
-    }
-
-    .sustentabilidade-conteudo h2 {
-        font-size: 1.8rem;
+    .quem-somos-conteudo h2 {
+        font-size: 1.9rem;
     }
 
     .espaco-imagem {
         height: 300px;
     }
 
-    .chamada-contato {
+    .etapas {
+        grid-template-columns: 1fr;
+        max-width: 450px;
+    }
+
+    .foto-integrantes {
+        height: 300px;
+    }
+
+    .lista-integrantes {
+        grid-template-columns: 1fr;
+    }
+
+    .frase-final {
         padding: 60px 7%;
     }
 
-    .chamada-contato h2 {
+    .frase-final h2 {
         font-size: 1.8rem;
-    }
-
-    .footer-conteudo {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-
-    .footer-links {
-        align-items: center;
     }
 }
 
@@ -556,11 +517,15 @@ a {
         font-size: 0.9rem;
     }
 
-    .slide img {
-        height: 220px;
+    .sobre-introducao h1 {
+        font-size: 1.9rem;
     }
 
     .titulo-secao h2 {
         font-size: 1.7rem;
     }
-}
+
+    .foto-integrantes {
+        height: 220px;
+    }
+    }
