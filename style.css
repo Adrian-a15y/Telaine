@@ -19,13 +19,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     background-color: #202020;
+
     padding: 1rem 5%;
+
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
 }
 
 .logo_menu {
     height: 70px;
+
     display: flex;
     align-items: center;
 }
@@ -33,20 +37,27 @@ body {
 .logo_menu img {
     height: 100%;
     width: auto;
+
     object-fit: contain;
 }
 
 .links_menu {
     display: flex;
+
     list-style: none;
+
     gap: 2rem;
 }
 
 .links_menu a {
     color: #E6E6E6;
+
     text-decoration: none;
+
     font-size: 1rem;
+
     font-weight: 500;
+
     transition: color 0.3s ease;
 }
 
@@ -56,8 +67,11 @@ body {
 
 .links_menu a.ativado {
     color: #EFDCDE;
+
     font-weight: 700;
+
     border-bottom: 2px solid #D8BEBF;
+
     padding-bottom: 4px;
 }
 
@@ -66,54 +80,117 @@ body {
 
 .subtitulo {
     display: block;
+
     color: #9C777A;
+
     font-size: 0.85rem;
+
     font-weight: 700;
+
     letter-spacing: 2px;
+
     margin-bottom: 12px;
 }
 
 .titulo-secao {
     max-width: 850px;
+
     margin: 0 auto 45px;
+
     text-align: center;
 }
 
 .titulo-secao h2 {
     color: #202020;
+
     font-size: 2rem;
+
     margin-bottom: 15px;
 }
 
 .titulo-secao p {
     color: #666666;
+
     line-height: 1.7;
+
     margin-bottom: 12px;
 }
 
 
-/* ==================== CABEÇALHO SOBRE ==================== */
+/* ================================================= */
+/* ==================== INDEX ====================== */
+/* ================================================= */
+
+
+/* ==================== CARROSSEL ==================== */
+
+.carrossel-container {
+    width: 100%;
+
+    max-width: 1200px;
+
+    margin: 2rem auto;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.carrossel-slides {
+    display: flex;
+}
+
+.slide {
+    flex: 0 0 100%;
+
+    padding: 0 10px;
+}
+
+.slide img {
+    width: 100%;
+
+    height: 450px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+}
+
+
+/* ================================================= */
+/* ==================== SOBRE ====================== */
+/* ================================================= */
+
+
+/* ==================== INTRODUÇÃO ==================== */
 
 .sobre-introducao {
     background-color: #F5F2F2;
+
     padding: 80px 10%;
+
     text-align: center;
 }
 
 .sobre-introducao-conteudo {
     max-width: 850px;
+
     margin: auto;
 }
 
 .sobre-introducao h1 {
     color: #202020;
+
     font-size: 2.8rem;
+
     margin-bottom: 20px;
 }
 
 .sobre-introducao p {
     color: #666666;
+
     font-size: 1.1rem;
+
     line-height: 1.7;
 }
 
@@ -122,22 +199,31 @@ body {
 
 .quem-somos {
     display: grid;
+
     grid-template-columns: 1fr 1fr;
+
     align-items: center;
+
     gap: 60px;
+
     padding: 80px 10%;
+
     background-color: #FFFFFF;
 }
 
 .quem-somos-conteudo h2 {
     color: #202020;
+
     font-size: 2.2rem;
+
     margin-bottom: 20px;
 }
 
 .quem-somos-conteudo p {
     color: #666666;
+
     line-height: 1.7;
+
     margin-bottom: 15px;
 }
 
@@ -145,16 +231,19 @@ body {
     width: 100%;
 }
 
-
-/* Espaço reservado para imagem */
-
 .espaco-imagem {
     height: 380px;
+
     background-color: #D8D8D8;
+
     border-radius: 8px;
+
     display: flex;
+
     align-items: center;
+
     justify-content: center;
+
     color: #777777;
 }
 
@@ -163,23 +252,33 @@ body {
 
 .nosso-proposito {
     padding: 80px 8%;
+
     background-color: #F5F2F2;
 }
 
 .proposito-conteudo {
     display: grid;
+
     grid-template-columns: repeat(3, 1fr);
+
     gap: 25px;
+
     max-width: 1100px;
+
     margin: auto;
 }
 
 .proposito-item {
     background-color: #FFFFFF;
+
     padding: 35px 30px;
+
     border-radius: 8px;
+
     text-align: center;
+
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+
     transition: 0.3s ease;
 }
 
@@ -189,17 +288,21 @@ body {
 
 .proposito-item .icone {
     font-size: 2.5rem;
+
     margin-bottom: 15px;
 }
 
 .proposito-item h3 {
     color: #202020;
+
     font-size: 1.3rem;
+
     margin-bottom: 12px;
 }
 
 .proposito-item p {
     color: #666666;
+
     line-height: 1.6;
 }
 
@@ -208,43 +311,60 @@ body {
 
 .como-funciona {
     padding: 80px 8%;
+
     background-color: #FFFFFF;
 }
 
 .etapas {
     display: grid;
+
     grid-template-columns: repeat(4, 1fr);
+
     gap: 20px;
+
     max-width: 1200px;
+
     margin: auto;
 }
 
 .etapa {
     text-align: center;
+
     padding: 25px 20px;
 }
 
 .numero-etapa {
     display: flex;
+
     width: 55px;
     height: 55px;
+
     margin: 0 auto 20px;
+
     align-items: center;
+
     justify-content: center;
+
     border-radius: 50%;
+
     background-color: #202020;
+
     color: #EFDCDE;
+
     font-weight: 700;
 }
 
 .etapa h3 {
     color: #202020;
+
     margin-bottom: 12px;
+
     font-size: 1.25rem;
 }
 
 .etapa p {
     color: #666666;
+
     line-height: 1.6;
 }
 
@@ -253,50 +373,67 @@ body {
 
 .sobre-objetivos {
     padding: 80px 8%;
+
     background-color: #F5F2F2;
 }
 
 .sobre-cards-objetivos {
     display: grid;
+
     grid-template-columns: repeat(3, 1fr);
+
     gap: 25px;
+
     max-width: 1200px;
+
     margin: auto;
 }
 
 .sobre-card-objetivo {
     background-color: #FFFFFF;
+
     padding: 35px 30px;
+
     border-radius: 8px;
+
     text-align: center;
+
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
 }
 
 .sobre-card-objetivo .icone {
     font-size: 2.5rem;
+
     margin-bottom: 15px;
 }
 
 .sobre-card-objetivo h3 {
     color: #202020;
+
     font-size: 1.4rem;
+
     margin-bottom: 15px;
 }
 
 .sobre-card-objetivo p {
     color: #666666;
+
     line-height: 1.7;
 }
 
 .lista-valores {
     list-style: none;
+
     color: #666666;
+
     line-height: 1.7;
+
     text-align: left;
 }
 
 .lista-valores li {
     padding: 8px 0;
+
     border-bottom: 1px solid #EEEEEE;
 }
 
@@ -313,63 +450,87 @@ body {
 
 .integrantes {
     padding: 80px 8%;
+
     background-color: #FFFFFF;
 }
 
 .foto-integrantes {
     width: 100%;
+
     max-width: 1000px;
+
     height: 450px;
+
     margin: 0 auto 45px;
+
     background-color: #D8D8D8;
+
     border-radius: 8px;
+
     display: flex;
+
     align-items: center;
+
     justify-content: center;
+
     color: #777777;
 }
 
-
-/* Lista dos integrantes */
-
 .lista-integrantes {
     display: grid;
+
     grid-template-columns: repeat(2, 1fr);
+
     gap: 15px;
+
     max-width: 900px;
+
     margin: auto;
 }
 
 .integrante {
     display: flex;
+
     align-items: center;
+
     gap: 18px;
+
     padding: 18px 20px;
+
     background-color: #F5F2F2;
+
     border-radius: 6px;
 }
 
 .integrante span {
     color: #9C777A;
+
     font-weight: 700;
+
     font-size: 0.9rem;
 }
 
 .integrante p {
     color: #202020;
+
     font-weight: 500;
 }
 
 .informacoes-projeto {
     max-width: 900px;
+
     margin: 35px auto 0;
+
     padding-top: 25px;
+
     border-top: 1px solid #DDDDDD;
+
     text-align: center;
 }
 
 .informacoes-projeto p {
     color: #666666;
+
     margin-bottom: 8px;
 }
 
@@ -378,18 +539,319 @@ body {
 
 .frase-final {
     background-color: #202020;
+
     color: #FFFFFF;
+
     padding: 80px 10%;
+
     text-align: center;
 }
 
 .frase-final h2 {
     font-size: 2.2rem;
+
     margin-bottom: 15px;
 }
 
 .frase-final p {
     color: #D8D8D8;
+
+    font-size: 1.1rem;
+}
+
+
+/* ================================================= */
+/* ==================== CONTATO ==================== */
+/* ================================================= */
+
+
+/* ==================== INTRODUÇÃO ==================== */
+
+.contato-introducao {
+    background-color: #FFFFFF;
+
+    padding: 70px 10%;
+
+    text-align: center;
+}
+
+.contato-introducao-conteudo {
+    max-width: 800px;
+
+    margin: auto;
+}
+
+.contato-introducao h1 {
+    color: #202020;
+
+    font-size: 2.5rem;
+
+    margin-bottom: 20px;
+}
+
+.contato-introducao p {
+    color: #666666;
+
+    font-size: 1.05rem;
+
+    line-height: 1.7;
+}
+
+
+/* ==================== ÁREA DE CONTATO ==================== */
+
+.contato {
+    padding: 80px 8%;
+
+    background-color: #F5F2F2;
+}
+
+.contato-conteudo {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 70px;
+
+    max-width: 1100px;
+
+    margin: auto;
+}
+
+
+/* ==================== INFORMAÇÕES ==================== */
+
+.contato-informacoes h2 {
+    color: #202020;
+
+    font-size: 2.2rem;
+
+    margin-bottom: 20px;
+}
+
+.contato-informacoes > p {
+    color: #666666;
+
+    line-height: 1.7;
+
+    margin-bottom: 35px;
+
+    max-width: 500px;
+}
+
+.contato-item {
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+    margin-bottom: 25px;
+}
+
+.contato-icone {
+    width: 50px;
+    height: 50px;
+
+    background-color: #202020;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 1.3rem;
+
+    flex-shrink: 0;
+}
+
+.contato-item h3 {
+    color: #202020;
+
+    margin-bottom: 5px;
+}
+
+.contato-item p,
+.contato-item a {
+    color: #666666;
+
+    text-decoration: none;
+}
+
+.contato-item a:hover {
+    color: #9C777A;
+}
+
+
+/* ==================== FORMULÁRIO ==================== */
+
+.contato-formulario-container {
+    width: 100%;
+}
+
+
+/* Botão que abre o formulário */
+
+.botao-formulario {
+    width: 100%;
+
+    padding: 16px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background-color: #202020;
+
+    color: #FFFFFF;
+
+    font-size: 1rem;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.botao-formulario:hover {
+    background-color: #9C777A;
+}
+
+
+/* Formulário escondido */
+
+.contato-formulario {
+    display: none;
+
+    margin-top: 20px;
+
+    padding: 35px;
+
+    background-color: #FFFFFF;
+
+    border-radius: 8px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Formulário aberto */
+
+.contato-formulario.aberto {
+    display: block;
+}
+
+
+/* ==================== CAMPOS ==================== */
+
+.campo {
+    display: flex;
+
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+
+.campo label {
+    color: #202020;
+
+    font-weight: 600;
+
+    margin-bottom: 8px;
+}
+
+.campo input,
+.campo textarea {
+    width: 100%;
+
+    padding: 13px 15px;
+
+    border: 1px solid #D5D5D5;
+
+    border-radius: 5px;
+
+    background-color: #FAFAFA;
+
+    color: #202020;
+
+    font-size: 1rem;
+
+    outline: none;
+
+    transition: 0.3s ease;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+    border-color: #D8BEBF;
+
+    background-color: #FFFFFF;
+}
+
+.campo textarea {
+    resize: vertical;
+}
+
+.campo input::placeholder,
+.campo textarea::placeholder {
+    color: #999999;
+}
+
+
+/* ==================== BOTÃO ENVIAR ==================== */
+
+.contato-formulario form button {
+    width: 100%;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background-color: #202020;
+
+    color: #FFFFFF;
+
+    font-size: 1rem;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.contato-formulario form button:hover {
+    background-color: #9C777A;
+}
+
+
+/* ==================== FINAL DO CONTATO ==================== */
+
+.contato-final {
+    background-color: #202020;
+
+    color: #FFFFFF;
+
+    padding: 70px 10%;
+
+    text-align: center;
+}
+
+.contato-final h2 {
+    font-size: 2rem;
+
+    margin-bottom: 15px;
+}
+
+.contato-final p {
+    color: #D8D8D8;
+
     font-size: 1.1rem;
 }
 
@@ -398,32 +860,43 @@ body {
 
 .footer {
     background-color: #151515;
+
     color: #E6E6E6;
 }
 
 .footer-final {
     border-top: 1px solid #333333;
+
     padding: 20px;
+
     text-align: center;
 }
 
 .footer-final p {
     color: #AAAAAA;
+
     font-size: 0.85rem;
 }
 
 
-/* ==================== RESPONSIVIDADE ==================== */
+/* ================================================= */
+/* ================= RESPONSIVIDADE ================ */
+/* ================================================= */
+
+
+/* ==================== TABLETS ==================== */
 
 @media (max-width: 900px) {
 
     .quem-somos {
         grid-template-columns: 1fr;
+
         gap: 35px;
     }
 
     .proposito-conteudo {
         grid-template-columns: 1fr;
+
         max-width: 600px;
     }
 
@@ -433,8 +906,18 @@ body {
 
     .sobre-cards-objetivos {
         grid-template-columns: 1fr;
+
         max-width: 600px;
     }
+
+    .contato-conteudo {
+        grid-template-columns: 1fr;
+
+        gap: 50px;
+
+        max-width: 700px;
+    }
+
 }
 
 
@@ -444,15 +927,37 @@ body {
 
     .navbar {
         flex-direction: column;
+
         gap: 1rem;
+
         text-align: center;
     }
 
     .links_menu {
         gap: 1.5rem;
+
         flex-wrap: wrap;
+
         justify-content: center;
     }
+
+
+    /* Index */
+
+    .carrossel-container {
+        margin: 1.5rem auto;
+    }
+
+    .slide {
+        padding: 0 5px;
+    }
+
+    .slide img {
+        height: 300px;
+    }
+
+
+    /* Sobre */
 
     .sobre-introducao {
         padding: 60px 7%;
@@ -480,6 +985,7 @@ body {
 
     .etapas {
         grid-template-columns: 1fr;
+
         max-width: 450px;
     }
 
@@ -498,6 +1004,38 @@ body {
     .frase-final h2 {
         font-size: 1.8rem;
     }
+
+
+    /* Contato */
+
+    .contato-introducao {
+        padding: 60px 7%;
+    }
+
+    .contato-introducao h1 {
+        font-size: 2rem;
+    }
+
+    .contato {
+        padding: 60px 7%;
+    }
+
+    .contato-informacoes h2 {
+        font-size: 1.8rem;
+    }
+
+    .contato-formulario {
+        padding: 25px;
+    }
+
+    .contato-final {
+        padding: 60px 7%;
+    }
+
+    .contato-final h2 {
+        font-size: 1.7rem;
+    }
+
 }
 
 
@@ -517,6 +1055,16 @@ body {
         font-size: 0.9rem;
     }
 
+
+    /* Index */
+
+    .slide img {
+        height: 220px;
+    }
+
+
+    /* Sobre */
+
     .sobre-introducao h1 {
         font-size: 1.9rem;
     }
@@ -528,4 +1076,16 @@ body {
     .foto-integrantes {
         height: 220px;
     }
+
+
+    /* Contato */
+
+    .contato-introducao h1 {
+        font-size: 1.7rem;
+    }
+
+    .contato-formulario {
+        padding: 20px;
+    }
+
     }
