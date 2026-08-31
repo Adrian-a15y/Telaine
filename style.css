@@ -158,6 +158,171 @@ body {
 
 
 /* ================================================= */
+/* ==================== CATÁLOGO =================== */
+/* ================================================= */
+
+
+/* ==================== INTRODUÇÃO ==================== */
+
+.catalogo-introducao {
+    background-color: #F5F2F2;
+
+    padding: 80px 10%;
+
+    text-align: center;
+}
+
+.catalogo-introducao-conteudo {
+    max-width: 850px;
+
+    margin: auto;
+}
+
+.catalogo-introducao h1 {
+    color: #202020;
+
+    font-size: 2.8rem;
+
+    margin-bottom: 20px;
+}
+
+.catalogo-introducao p {
+    color: #666666;
+
+    font-size: 1.1rem;
+
+    line-height: 1.7;
+}
+
+
+/* ==================== PRODUTOS ==================== */
+
+.catalogo {
+    padding: 80px 8%;
+
+    background-color: #FFFFFF;
+}
+
+.produtos {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 25px;
+
+    max-width: 1200px;
+
+    margin: auto;
+}
+
+
+/* ==================== CARD DO PRODUTO ==================== */
+
+.produto {
+    background-color: #F5F2F2;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s ease;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+}
+
+
+/* ==================== IMAGEM DO PRODUTO ==================== */
+
+.produto-imagem {
+    width: 100%;
+
+    height: 260px;
+
+    background-color: #D8D8D8;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: #777777;
+
+    text-align: center;
+}
+
+.produto-imagem img {
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* ==================== INFORMAÇÕES DO PRODUTO ==================== */
+
+.produto-conteudo {
+    padding: 25px;
+}
+
+.produto-conteudo h3 {
+    color: #202020;
+
+    font-size: 1.3rem;
+
+    margin-bottom: 10px;
+}
+
+.produto-conteudo p {
+    color: #666666;
+
+    line-height: 1.6;
+
+    margin-bottom: 18px;
+}
+
+.produto-preco {
+    display: block;
+
+    color: #9C777A;
+
+    font-size: 1.1rem;
+
+    font-weight: 700;
+}
+
+
+/* ==================== FINAL DO CATÁLOGO ==================== */
+
+.catalogo-final {
+    background-color: #202020;
+
+    color: #FFFFFF;
+
+    padding: 70px 10%;
+
+    text-align: center;
+}
+
+.catalogo-final h2 {
+    font-size: 2.2rem;
+
+    margin-bottom: 15px;
+}
+
+.catalogo-final p {
+    color: #D8D8D8;
+
+    font-size: 1.1rem;
+}
+
+
+/* ================================================= */
 /* ==================== SOBRE ====================== */
 /* ================================================= */
 
@@ -230,6 +395,9 @@ body {
 .quem-somos-imagem {
     width: 100%;
 }
+
+
+/* Espaço reservado para imagem */
 
 .espaco-imagem {
     height: 380px;
@@ -476,6 +644,19 @@ body {
     color: #777777;
 }
 
+.foto-integrantes img {
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+}
+
+
+/* ==================== LISTA DOS INTEGRANTES ==================== */
+
 .lista-integrantes {
     display: grid;
 
@@ -686,14 +867,11 @@ body {
 }
 
 
-/* ==================== FORMULÁRIO ==================== */
+/* ==================== BOTÃO DO FORMULÁRIO ==================== */
 
 .contato-formulario-container {
     width: 100%;
 }
-
-
-/* Botão que abre o formulário */
 
 .botao-formulario {
     width: 100%;
@@ -722,7 +900,7 @@ body {
 }
 
 
-/* Formulário escondido */
+/* ==================== FORMULÁRIO ESCONDIDO ==================== */
 
 .contato-formulario {
     display: none;
@@ -737,9 +915,6 @@ body {
 
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
 }
-
-
-/* Formulário aberto */
 
 .contato-formulario.aberto {
     display: block;
@@ -856,7 +1031,9 @@ body {
 }
 
 
-/* ==================== RODAPÉ ==================== */
+/* ================================================= */
+/* ==================== RODAPÉ ===================== */
+/* ================================================= */
 
 .footer {
     background-color: #151515;
@@ -885,6 +1062,19 @@ body {
 
 
 /* ==================== TABLETS ==================== */
+
+@media (max-width: 1000px) {
+
+    .produtos {
+        grid-template-columns: repeat(2, 1fr);
+
+        max-width: 800px;
+    }
+
+}
+
+
+/* ==================== TABLETS MENORES ==================== */
 
 @media (max-width: 900px) {
 
@@ -954,6 +1144,39 @@ body {
 
     .slide img {
         height: 300px;
+    }
+
+
+    /* Catálogo */
+
+    .catalogo-introducao {
+        padding: 60px 7%;
+    }
+
+    .catalogo-introducao h1 {
+        font-size: 2.2rem;
+    }
+
+    .catalogo {
+        padding: 60px 7%;
+    }
+
+    .produtos {
+        grid-template-columns: 1fr;
+
+        max-width: 450px;
+    }
+
+    .produto-imagem {
+        height: 300px;
+    }
+
+    .catalogo-final {
+        padding: 60px 7%;
+    }
+
+    .catalogo-final h2 {
+        font-size: 1.8rem;
     }
 
 
@@ -1060,6 +1283,21 @@ body {
 
     .slide img {
         height: 220px;
+    }
+
+
+    /* Catálogo */
+
+    .catalogo-introducao h1 {
+        font-size: 1.9rem;
+    }
+
+    .produto-imagem {
+        height: 250px;
+    }
+
+    .produto-conteudo {
+        padding: 20px;
     }
 
 
