@@ -415,60 +415,7 @@
 
     <!-- RODAPÉ -->
 
-    <footer class="footer">
-
-        <div class="footer-conteudo">
-
-            <div class="footer-logo">
-
-                <img src="imagens/logo_telaine.png"
-                     alt="Logo da Telaine">
-
-                <p>
-                    Reaproveitar, criar e transformar.
-                </p>
-
-            </div>
-
-
-            <div class="footer-links">
-
-                <h3>
-                    Navegação
-                </h3>
-
-                <a href="index.html">Início</a>
-                <a href="catalogo.php">Catálogo</a>
-                <a href="sobre.php">Sobre</a>
-                <a href="contato.php">Contato</a>
-
-            </div>
-
-
-            <div class="footer-contato">
-
-                <h3>
-                    Telaine
-                </h3>
-
-                <p>
-                    Transformando retalhos em novas possibilidades.
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="footer-final">
-
-            <p>
-                © 2026 Telaine. Todos os direitos reservados.
-            </p>
-
-        </div>
-
-    </footer>
+   
 
 
     <!-- JAVASCRIPT DO CARROSSEL -->
