@@ -21,6 +21,7 @@
         </div>
 
         <ul class="links_menu">
+
             <li>
                 <a href="index.html" class="ativado">Início</a>
             </li>
@@ -36,6 +37,7 @@
             <li>
                 <a href="contato.php">Contato</a>
             </li>
+
         </ul>
 
     </nav>
@@ -54,15 +56,15 @@
                 </div>
 
                 <div class="slide">
-                    <img src="imagens/imagem2.jpg" alt="Produtos confeccionados pela Telaine">
+                    <img src="imagens/imagem2.jpg" alt="Produtos da Telaine">
                 </div>
 
                 <div class="slide">
-                    <img src="imagens/imagem3.jpg" alt="Tecidos reaproveitados pela Telaine">
+                    <img src="imagens/imagem3.jpg" alt="Produtos da Telaine">
                 </div>
 
                 <div class="slide">
-                    <img src="imagens/imagem4.jpg" alt="Produtos sustentáveis da Telaine">
+                    <img src="imagens/imagem4.jpg" alt="Produtos da Telaine">
                 </div>
 
             </div>
@@ -76,22 +78,24 @@
 
             <div class="apresentacao-conteudo">
 
-                <span class="subtitulo">CONHEÇA A TELAINE</span>
+                <span class="subtitulo">
+                    CONHEÇA A TELAINE
+                </span>
 
                 <h1>
                     Reaproveitar, criar e transformar.
                 </h1>
 
                 <p>
-                    A Telaine nasceu com o propósito de transformar retalhos de
-                    cortinas que seriam descartados em produtos úteis, bonitos
-                    e criativos.
+                    A Telaine nasceu com o propósito de transformar retalhos
+                    de cortinas que seriam descartados em produtos úteis,
+                    bonitos e criativos.
                 </p>
 
                 <p>
                     Bolsas, almofadas, nécessaires, laços e outros produtos
-                    ganham uma nova vida através do reaproveitamento de tecidos,
-                    contribuindo para a redução do desperdício.
+                    ganham uma nova vida através do reaproveitamento de
+                    tecidos, contribuindo para a redução do desperdício.
                 </p>
 
                 <a href="sobre.php" class="botao">
@@ -109,7 +113,9 @@
 
             <div class="titulo-secao">
 
-                <span class="subtitulo">NOSSA ESSÊNCIA</span>
+                <span class="subtitulo">
+                    NOSSA ESSÊNCIA
+                </span>
 
                 <h2>
                     Missão, Meta e Valores
@@ -125,7 +131,7 @@
 
             <div class="cards-objetivos">
 
-                <!-- Missão -->
+                <!-- MISSÃO -->
 
                 <article class="card-objetivo">
 
@@ -138,16 +144,16 @@
                     </h3>
 
                     <p>
-                        Reaproveitar retalhos de cortinas que seriam descartados,
-                        transformando-os em produtos úteis, bonitos e criativos,
-                        contribuindo para a redução do desperdício e dando uma
-                        nova vida aos tecidos.
+                        Reaproveitar retalhos de cortinas que seriam
+                        descartados, transformando-os em produtos úteis,
+                        bonitos e criativos, contribuindo para a redução
+                        do desperdício e dando uma nova vida aos tecidos.
                     </p>
 
                 </article>
 
 
-                <!-- Meta -->
+                <!-- META -->
 
                 <article class="card-objetivo">
 
@@ -160,15 +166,15 @@
                     </h3>
 
                     <p>
-                        Reduzir o desperdício de tecidos e tornar a Telaine uma
-                        marca reconhecida pela criatividade, sustentabilidade
-                        e qualidade de seus produtos.
+                        Reduzir o desperdício de tecidos e tornar a Telaine
+                        uma marca reconhecida pela criatividade,
+                        sustentabilidade e qualidade de seus produtos.
                     </p>
 
                 </article>
 
 
-                <!-- Valores -->
+                <!-- VALORES -->
 
                 <article class="card-objetivo">
 
@@ -203,7 +209,9 @@
 
             <div class="titulo-secao">
 
-                <span class="subtitulo">O QUE CRIAMOS</span>
+                <span class="subtitulo">
+                    O QUE CRIAMOS
+                </span>
 
                 <h2>
                     Nossos produtos
@@ -219,12 +227,14 @@
 
             <div class="cards-produtos">
 
-                <!-- Bolsa -->
+                <!-- BOLSA -->
 
                 <article class="card-produto">
 
+                    <!-- Espaço reservado para imagem -->
+
                     <div class="imagem-produto">
-                        <img src="imagens/bolsa.jpg" alt="Bolsa produzida com tecido reaproveitado">
+                        <span>Imagem da bolsa</span>
                     </div>
 
                     <div class="conteudo-produto">
@@ -234,8 +244,8 @@
                         </h3>
 
                         <p>
-                            Práticas, criativas e produzidas a partir de
-                            tecidos reaproveitados.
+                            Práticas, criativas e produzidas a partir
+                            de tecidos reaproveitados.
                         </p>
 
                     </div>
@@ -243,12 +253,14 @@
                 </article>
 
 
-                <!-- Almofada -->
+                <!-- ALMOFADA -->
 
                 <article class="card-produto">
 
+                    <!-- Espaço reservado para imagem -->
+
                     <div class="imagem-produto">
-                        <img src="imagens/almofada.jpg" alt="Almofada produzida com tecido reaproveitado">
+                        <span>Imagem da almofada</span>
                     </div>
 
                     <div class="conteudo-produto">
@@ -258,8 +270,8 @@
                         </h3>
 
                         <p>
-                            Peças que unem conforto, criatividade e
-                            reaproveitamento.
+                            Peças que unem conforto, criatividade
+                            e reaproveitamento.
                         </p>
 
                     </div>
@@ -267,12 +279,14 @@
                 </article>
 
 
-                <!-- Nécessaire -->
+                <!-- NÉCESSAIRE -->
 
                 <article class="card-produto">
 
+                    <!-- Espaço reservado para imagem -->
+
                     <div class="imagem-produto">
-                        <img src="imagens/necessaire.jpg" alt="Nécessaire produzida com tecido reaproveitado">
+                        <span>Imagem da nécessaire</span>
                     </div>
 
                     <div class="conteudo-produto">
@@ -282,8 +296,8 @@
                         </h3>
 
                         <p>
-                            Compactas e funcionais para acompanhar o seu dia
-                            a dia.
+                            Compactas e funcionais para acompanhar
+                            o seu dia a dia.
                         </p>
 
                     </div>
@@ -291,12 +305,14 @@
                 </article>
 
 
-                <!-- Laços -->
+                <!-- LAÇOS -->
 
                 <article class="card-produto">
 
+                    <!-- Espaço reservado para imagem -->
+
                     <div class="imagem-produto">
-                        <img src="imagens/laco.jpg" alt="Laço produzido com tecido reaproveitado">
+                        <span>Imagem do laço</span>
                     </div>
 
                     <div class="conteudo-produto">
@@ -306,8 +322,8 @@
                         </h3>
 
                         <p>
-                            Pequenos detalhes que transformam retalhos em
-                            acessórios criativos.
+                            Pequenos detalhes que transformam retalhos
+                            em acessórios criativos.
                         </p>
 
                     </div>
@@ -328,12 +344,15 @@
 
         <section class="sustentabilidade">
 
+            <!-- Espaço reservado para imagem -->
+
             <div class="sustentabilidade-imagem">
 
-                <img
-                    src="imagens/sustentabilidade.jpg"
-                    alt="Tecidos e retalhos reaproveitados"
-                >
+                <div class="espaco-imagem">
+                    <span>
+                        Imagem sobre sustentabilidade
+                    </span>
+                </div>
 
             </div>
 
@@ -457,12 +476,15 @@
     </footer>
 
 
-    <!-- ==================== JAVASCRIPT DO CARROSSEL ==================== -->
+    <!-- ==================== JAVASCRIPT ==================== -->
 
     <script>
 
-        const container = document.querySelector('.carrossel-container');
-        const slides = document.querySelectorAll('.slide');
+        const container =
+            document.querySelector('.carrossel-container');
+
+        const slides =
+            document.querySelectorAll('.slide');
 
         let index = 0;
 
@@ -471,16 +493,12 @@
 
             index++;
 
-            // Quando chegar à última imagem,
-            // retorna para a primeira.
-
             if (index >= slides.length) {
                 index = 0;
             }
 
-
-            const larguraSlide = slides[0].clientWidth;
-
+            const larguraSlide =
+                slides[0].clientWidth;
 
             container.scrollTo({
 
@@ -493,7 +511,7 @@
         }
 
 
-        // Troca a imagem a cada 5 segundos.
+        // Troca a imagem a cada 5 segundos
 
         setInterval(moverCarrossel, 5000);
 
